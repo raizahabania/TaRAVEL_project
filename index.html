@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@700&display=swap"
+        rel="stylesheet"> -->
+
+    <title>Home</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="navbar-fixed">
+        <!-- Navbar -->
+
+        <nav class="nav-wrapper white z-depth-0">
+            <div class="container">
+                <a href="#" class="left brand-logo indigo-text">TaRAVEL</a>
+            </div>
+
+
+            <div class="container">
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="#banner" class="black-text">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="black-text">About</a>
+                    </li>
+                    <li>
+                        <a href="#destination" class="black-text">Famous Destination</a>
+                    </li>
+                    <li>
+                        <a href="#featured" class="black-text">Featured Places</a>
+                    </li>
+                    <li>
+                        <a href="#" class="waves-effect waves-light btn modal-trigger indigo lighten-1">Login</a>
+                    </li>
+                </ul>
+                <a href="#" class="right hide-on-med-and-up sidenav-trigger black-text" data-target="mobile-nav"
+                    role="button">
+                    <i class="material-icons"> menu </i>
+                </a>
+                <ul id="mobile-nav" class="sidenav">
+                    <li><a href="#banner">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#destination">Famous Destination</a></li>
+                    <li><a href="#featured">Featured Places</a></li>
+                    <li><a href="#" class="waves-effect waves-light btn modal-trigger indigo lighten-1">Login</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main>
+
+        <section class="scrollspy" id="banner">
+            <div class="parallax-container">
+                <div class="parallax"><img class="responsive-img" src="images/banner.png" style="object-fit: cover; ">
+                </div>
+            </div>
+        </section>
+
+        <br><br><br>
+        <!-- section - hero -->
+        <div class="container">
+
+            <section class="section hero" id="about">
+                <!-- row wrapper -->
+                <div class="row valign-wrapper">
+                    <!-- first collumn -->
+                    <div class="col s12 l3">
+                        <h3>About Us</h3>
+                        <p>
+                            Discover the treasures of the Philippines from beaches and islands, highlands, historical
+                            spots, and must-try food and fun activities. Find out the best time to visit and the best
+                            tourist spots. Learn how to get around from the Manila airport. Discover the best places to
+                            eat. Take inspiration from a 2-week itinerary that will take you around the best
+                            destinations in the country. Read this article for an introduction to traveling around the
+                            Philippines.
+                        </p>
+                        <a href="#" class="waves-effect waves-light btn-large indigo">Learn more</a>
+                        <br><br><br><br>
+                    </div>
+                    <!-- second collumn -->
+                    <div class="col s12 l9 header-images">
+                        <img src="images/Parasailing.jpg" alt="" class="hide-on-small-only">
+                        <img src="images/hiking.jpg" alt="" class="hide-on-small-only">
+                        <img src="images/siargao_swim.jpg" alt="" class="hide-on-small-only">
+                        <img src="images/ocean_waves.jpg" alt="" class="hide-on-small-only">
+
+                        <!-- <a class="carousel-item" href="#one!">
+                            <img src="images/Parasailing.jpg" alt="" class="hide-on-small-only">
+                        </a>
+                        <a class="carousel-item" href="#two!">
+                            <img src="images/hiking.jpg" alt="" class="hide-on-small-only"></a>
+                        <a class="carousel-item" href="#three!">
+                            <img src="images/siargao_swim.jpg" alt="" class="hide-on-small-only">
+                        </a>
+                        <a class="carousel-item" href="#four!">
+                            <img src="images/ocean_waves.jpg" alt="" class="hide-on-small-only">
+                        </a>
+                        <a class="carousel-item" href="#four!">
+                            <img src="images/rice_tereces.jpg" alt="" class="hide-on-small-only">
+                        </a> -->
+                    </div>
+                    <div class="col s12 hide-on-med-and-up">
+                        <div class="carousel">
+                            <div class="carousel-item">
+                                <img src="images/Parasailing.jpg" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/hiking.jpg" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/siargao_swim.jpg" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/ocean_waves.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nice Waves -->
+                <div id="waves" class="waves"></div>
+            </section>
+        </div>
+
+
+        <!-- <section class="scrollspy" id="banner">
+            <div class="parallax-container">
+                <div class="parallax"><img class="responsive-img" src="images/banner.png"
+                        style="object-fit: cover; flex-wrap: wrap; display: flex;z-index: 1;width: 800px; height: 500px;">
+                </div>
+            </div>
+        </section> -->
+
+
+        <div class="container">
+            <!-- Section - About -->
+            <div class="section about">
+                <!-- Row Container -->
+                <div class="row valign-wrapper">
+                    <!-- First Column -->
+                    <div class="col s12 l6">
+                        <h2>Travelling Made Easier</h2>
+                        <p>
+                            Good news, dear fans. Right now is a great time to book your flight to ! We're offering some
+                            truly incredible roundtrip deals. So whether you're a frequent business traveler, or if
+                            you're just looking to get out of town for a while, you can fly for less. And don't forget,
+                            CheapOair also has great deals on hotels and cars waiting for you when you land. Just think
+                            - with the money you've saved on your flight, you can splurge on what matters - attractions,
+                            shopping, dining out, and more. So don't delay - grab a cheap ticket to today!
+                        </p>
+                        <p>
+                            The Philippines is defined by its emerald rice fields, teeming megacities, graffiti-splashed
+                            jeepneys, smoldering volcanoes, bug-eyed tarsiers, fuzzy water buffalo and smiling,
+                            happy-go-lucky people.
+                        </p>
+                        <a href="#modal" class="waves-effect waves-light btn modal-trigger btn-large indigo">Book
+                            Now</a>
+
+                        <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal">Modal</a> -->
+                    </div>
+                    <!-- Modal Structure -->
+                    <div id="modal" class="modal">
+                        <div class="modal-content">
+                            <h4>Plan Your Next Destination</h4>
+                            <br>
+                            <div class="divider"></div>
+                            <nav>
+                                <div class="nav-wrapper">
+                                    <form>
+                                        <div class="input-field">
+                                            <input id="search" type="search" required class="white"
+                                                placeholder="Search place for travel destination">
+                                            <label class="label-icon" for="search"><i
+                                                    class="fa-solid fa-magnifying-glass"></i></label>
+                                            <i class="material-icons"><i class="fa-solid fa-xmark"></i></i>
+                                        </div>
+                                    </form>
+                                </div>
+                            </nav>
+                            <h6>Select Places</h6>
+                            <div class="input-field col s12">
+                                <select>
+                                    <option value="" disabled selected>Choose your next destination</option>
+                                    <option value="1">Cebu</option>
+                                    <option value="2">Palawan
+                                    </option>
+                                    <option value="3">Siargao</option>
+                                </select>
+                            </div>
+                            <br>
+                            <h6>Select Available Packages</h6>
+                            <div class="input-field col s12">
+                                <select>
+                                    <option value="" disabled selected>Choose your option packages</option>
+                                    <option value="1">Option 1: Food, Hotel, Hiking, Swimming, Diving</option>
+                                    <option value="2">Option 2: Food, Hotel, Swimming, Scuba Diving, Parasailing, Yatch
+                                        Relax
+                                    </option>
+                                    <option value="3">Option 3: Food, Hotel, Yatch Relax, Island Visit, Scuba Diving
+                                    </option>
+                                </select>
+                            </div>
+
+                            <h6>Search Next Available Hotel At Your Travel Destination</h6>
+                            <nav>
+                                <div class="nav-wrapper">
+                                    <form>
+                                        <div class="input-field">
+                                            <input id="search" type="search" required class="white"
+                                                placeholder="Search hotel for travel destination">
+                                            <label class="label-icon" for="search"><i
+                                                    class="fa-solid fa-magnifying-glass"></i></label>
+                                            <i class="material-icons"><i class="fa-solid fa-xmark"></i></i>
+                                        </div>
+                                    </form>
+                                </div>
+                            </nav>
+
+                            <h6>Date Start:</h6>
+                            <!-- <h1 class="red-text text-lighten-2">Date Picker</h1> -->
+                            <input type="text" class="datepicker">
+                            Select Date
+                            <h6>Date End:</h6>
+                            <!-- <h1 class="red-text text-lighten-2">Date Picker</h1> -->
+                            <input type="text" class="datepicker">
+                            Select Date
+
+                            <h6>Time Arrival</h6>
+                            <!-- <h1 class="red-text text-lighten-2">Time Picker</h1>i -->
+                            <input type="text" class="timepicker">
+                            Select Time
+
+                            <br><br><br>
+                            <div class="divider"></div>
+                            <br>
+                            <b>Generated Cost: </b> P 4,999<br><br><br><br>
+                        </div>
+                        <div class="modal-footer indigo">
+                            <a href="#!" class="modal-close waves-effect waves-light btn white-text">Submit</a>
+                        </div>
+                    </div>
+
+                    <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal">Modal</a> -->
+
+
+                    <!-- Second Column -->
+                    <div class="col s12 l6">
+                        <!-- Nested Row Container -->
+                        <div class="row">
+                            <!-- First Nested Column -->
+                            <div class="col m6">
+                                <!-- Card -->
+                                <div class="card center-align  teal lighten-2">
+                                    <!-- Card Content -->
+                                    <div class="card-content white-text">
+                                        <i class="material-icons large"> explore </i>
+                                        <span class="card-title">To Travel is to Live</span>
+                                        <p>
+                                            exploring the Philippines is not only about leisure and pleasure but also
+                                            about cultural enrichment, personal growth, and contributing to the
+                                            preservation of this remarkable country. It's a journey that offers a deeper
+                                            understanding of the world and ourselves.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Second Nested Column -->
+                            <div class="col m6">
+                                <!-- Card -->
+                                <div class="card center-align  teal lighten-2">
+                                    <!-- Card Content -->
+                                    <div class="card-content white-text">
+                                        <i class="material-icons large"> hiking </i>
+                                        <span class="card-title">Leave Footprints</span>
+                                        <p>
+                                            It's essential to hike safely and responsibly, wear appropriate gear, stay
+                                            hydrated, and be aware of your physical limitations. Whether you're a
+                                            seasoned hiker or a beginner, the benefits of hiking can enhance your
+                                            overall health and well-being.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Third Nested Column -->
+                            <div class="col m6">
+                                <!-- Card -->
+                                <div class="card center-align teal lighten-2">
+                                    <!-- Card Content -->
+                                    <div class="card-content white-text">
+                                        <i class="material-icons large"> travel_explore </i>
+                                        <span class="card-title">Make Memories</span>
+                                        <p>
+                                            making memories while traveling is special because it brings a sense of
+                                            adventure, personal growth, and emotional connections. These memories become
+                                            a part of who you are, shaping your outlook on life and enriching your
+                                            journey through the world.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Fourth Nested Column -->
+                            <div class="col m6">
+                                <!-- Card -->
+                                <div class="card center-align teal lighten-2">
+                                    <!-- Card Content -->
+                                    <div class="card-content white-text">
+                                        <i class="material-icons large"> place </i>
+                                        <span class="card-title">Explore the Place</span>
+                                        <p>
+                                            exploring places in the Philippines offers a wide array of benefits, from
+                                            enjoying nature's beauty to fostering personal growth and cultural
+                                            understanding. It is an enriching experience that leaves a positive impact
+                                            on your well-being and perspective on life.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Section - Top Destinations -->
+            <section class="scrollspy" id="destination">
+                <!-- Section Header -->
+                <div class="center-align">
+                    <h2>Famous Destinations</h2>
+                    <p>
+                        Welcome to the enchanting archipelago of the Philippines, a tropical paradise renowned for its
+                        breathtaking natural beauty, rich cultural heritage, and warm hospitality. In this captivating
+                        journey, we will delve into the diverse tapestry of the "Famous Destinations in the
+                        Philippines," where each location tells a unique story that is sure to leave you spellbound.
+
+                        From pristine white-sand beaches that glisten under the golden sun to verdant mountains shrouded
+                        in mist, the Philippines offers an array of landscapes that cater to every traveler's dream. But
+                        it is not just the stunning scenery that draws visitors from across the globe; it is the vibrant
+                        history, the mouthwatering cuisine, and the vibrant traditions that make this nation an
+                        unparalleled destination.
+                    </p>
+                </div>
+                <!-- /Section Header -->
+
+
+                <!-- Row Container -->
+                <div class="row">
+                    <!-- First Column -->
+                    <div class="col s12 m6 l3">
+                        <!-- Card -->
+                        <div class="card medium hoverable">
+                            <!-- Card Image -->
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img src="images/bohol_hills.jpg" alt="" class="activator" />
+                            </div>
+                            <!-- /Card Image -->
+                            <!-- Card Content -->
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">
+                                    Chocolate Hills <i class="material-icons right"> expand_more </i></span>
+                                <p class="grey-text">Bohol</p>
+                                <p> Explore the various attractions in Bohol loved by locals and tourists alike.</p>
+                                <div class="card-action">
+                                    <a href="#modal"
+                                        class="waves-effect waves-light btn modal-trigger indigo lighten-1">Book Now</a>
+                                </div>
+                            </div>
+                            <!-- /Card Content -->
+                            <!-- Card Reveal -->
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Chocolate Hills <i
+                                        class="material-icons right">
+                                        close </i></span>
+                                <p>
+                                    Explore the various attractions in Bohol loved by locals and tourists alike. Find
+                                    the top things to do in Bohol and tourist spots such as Chocolate Hills to visit in
+                                    this island province.
+                                </p>
+                                <ul class="additional-info">
+                                    <li class="valign-wrapper">
+                                        <i class="material-icons indigo-text"> rowing </i>
+                                        8 Activities
+                                    </li>
+                                    <li class="valign-wrapper">
+                                        <i class="material-icons indigo-text"> location_on </i>
+                                        9 Tourist Spots
+                                    </li>
+                                    <li class="valign-wrapper">
+                                        <i class="material-icons indigo-text"> nightlight_round </i>
+                                        4 days, 3 nights
+                                    </li>
+                                    <div class="price-block">
+                                        <p>P6,799</p>
+                                        <a href="#"
+                                            class="right waves-effect waves-light btn-small indigo lighten-1">Book
+                                            Now</a>
+                                    </div>
+                                </ul>
+                            </div>
+                            <!-- /Card Reveal -->
+                        </div>
+                        <!-- /Card -->
+                    </div>
+                    <!-- /First Column -->
+                    <!-- Second Column -->
+                    <div class="col s12 m6 l3">
+                        <!-- Card -->
+                        <div class="card medium hoverable">
+                            <!-- Card Image -->
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img src="images/boracay.jpg" alt="" class="activator" />
+                            </div>
+                            <!-- /Card Image -->
+                            <!-- Card Content -->
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">
+                                    Boracay <i class="material-icons right"> expand_more </i></span>
+                                <p class="grey-text">Japan</p>
+                                <p>Boracay Island, one of the top beaches in the Philippines and one of the best Visayas
+                                    tourist spots..</p>
+                                <div class="card-action">
+                                    <a href="#modal"
+                                        class="waves-effect waves-light btn modal-trigger indigo lighten-1">Book Now</a>
+                                </div>
+                            </div>
+                            <!-- /Card Content -->
+                            <!-- Card Reveal -->
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Boracay <i
+                                        class="material-icons right">
+                                        close </i></span>
+                                <p>
+                                    Boracay Island, one of the top beaches in the Philippines and one of the best
+                                    Visayas tourist spots, is blessed with a long stretch of powdery white sand beach
+                                    (called White Beach), crystal clear and azure waters, and a stunning sunset.
+                                </p>
+                                <ul class="additional-info">
+                                    <li class="valign-wrapper">
+                                        <i class="material-icons indigo-text"> rowing </i>
+                                        4 Activities
+                                    </li>
+                                    <li class="valign-wrapper">
+                                        <i class="material-icons indigo-text"> location_on </i>
+                                        4 Tourist Spots
+                                    </li>
+                                    <li class="valign-wrapper">
+                                        <i class="material-icons indigo-text"> nightlight_round </i>
+                                        3 days, 2 nights
+                                    </li>
+                                    <div class="price-block">
+                                        <p>P7,999</p>
+                                        <a href="#"
+                                            class="right waves-effect waves-light btn-small indigo lighten-1">Book
+                                            Now</a>
+                                    </div>
+                                </ul>
+                            </div>
+                            <!-- /Card Reveal -->
+                        </div>
+                        <!-- /Card -->
+                    </div>
+                    <!-- /Second Column -->
+                    <!-- Third Column -->
+                    <div class="col s12 m6 l3">
+                        <!-- Card -->
+                        <div class="card medium hoverable">
+                            <!-- Card Image -->
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img src="images/diving.jpg" alt="" class="activator" />
+                            </div>
+                            <!-- /Card Image -->
+                            <!-- Card Content -->
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">
+                                    Sugba Lagoon <i class="material-icons right"> expand_more </i></span>
+                                <p class="grey-text">Siargao</p>
+                                <p>Sugba Lagoon is a gem tucked away in the quiet town of Del Carmen in Siargao.</p>
+                                <div class="card-action">
+                                    <a href="#modal"
+                                        class="waves-effect waves-light btn modal-trigger indigo lighten-1">Book Now</a>
+                                </div>
+                            </div>
+                            <!-- /Card Content -->
+                            <!-- Card Reveal -->
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Sugba Lagoon <i
+                                        class="material-icons right">
+                                        close </i></span>
+                                <p>
+                                    Sugba Lagoon is a gem tucked away in the quiet town of Del Carmen in Siargao. You
+                                    will find this spectacular destination of a mystical mangrove forest
+                                    surrounded by mountains.
+                                </p>
+                                <ul class="additional-info">
+                                    <li class="valign-wrapper">
+                                        <i class="material-icons indigo-text"> rowing </i>
+                                        12 Activities
+                                    </li>
+                                    <li class="valign-wrapper">
+                                        <i class="material-icons indigo-text"> location_on </i>
+                                        9 Tourist Spots
+                                    </li>
+                                    <li class="valign-wrapper">
+                                        <i class="material-icons indigo-text"> nightlight_round </i>
+                                        4 days, 3 nights
+                                    </li>
+                                    <div class="price-block">
+                                        <p>P14,999</p>
+                                        <a href="#"
+                                            class="right waves-effect waves-light btn-small indigo lighten-1">Book
+                                            Now</a>
+                                    </div>
+                                </ul>
+                            </div>
+                            <!-- /Card Reveal -->
+                        </div>
+                        <!-- /Card -->
+                    </div>
+                    <!-- /Third Column -->
+                    <!-- Fourth Column -->
+                    <div class="col s12 m6 l3">
+                        <!-- Card -->
+                        <div class="card medium hoverable">
+                            <!-- Card Image -->
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img src="images/venice_grand_canal.jpg" alt="" class="activator" />
+                            </div>
+                            <!-- /Card Image -->
+                            <!-- Card Content -->
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">
+                                    Venice Grand Canal Mall <i class="material-icons right"> expand_more </i></span>
+                                <p class="grey-text">Manila</p>
+                                <p>This Venice-inspired mall draws thousands of travelers for its fine architecture.</p>
+                                <div class="card-action">
+                                    <a href="#modal"
+                                        class="waves-effect waves-light btn modal-trigger indigo lighten-1">Book Now</a>
+                                </div>
+                            </div>
+                            <!-- /Card Content -->
+                            <!-- Card Reveal -->
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Manila <i class="material-icons right">
+                                        close </i></span>
+                                <p>
+                                    This Venice-inspired mall draws thousands of travelers for its fine architecture and
+                                    replica of Italy’s Grand Canal—the main centerpiece here.
+                                </p>
+                                <ul class="additional-info">
+                                    <li class="valign-wrapper">
+                                        <i class="material-icons indigo-text"> rowing </i>
+                                        5 Activities
+                                    </li>
+                                    <li class="valign-wrapper">
+                                        <i class="material-icons indigo-text"> location_on </i>
+                                        6 Tourist Spots
+                                    </li>
+                                    <li class="valign-wrapper">
+                                        <i class="material-icons indigo-text"> nightlight_round </i>
+                                        2 days, 1 nights
+                                    </li>
+                                    <div class="price-block">
+                                        <p>P10,000</p>
+                                        <a href="#"
+                                            class="right waves-effect waves-light btn-small indigo lighten-1">Book
+                                            Now</a>
+                                    </div>
+                                </ul>
+                            </div>
+                            <!-- /Card Reveal -->
+                        </div>
+                        <!-- /Card -->
+                    </div>
+                    <!-- /Fourth Column -->
+                </div>
+                <!-- /Row Container -->
+            </section>
+            <!-- /Section - Top Destinations -->
+        </div>
+
+        <div class="container">
+            <!-- Section - Featured Places -->
+            <section class="section featured-images scrollspy" id="featured">
+                <!-- Section Header -->
+                <div class="center-align">
+                    <h2>Featured Places</h2>
+                    <p>
+                        Embark with us on this immersive exploration as we uncover the iconic wonders of the Philippines
+                        — the world-renowned rice terraces of Banaue, the captivating underground river of Puerto
+                        Princesa, the bustling metropolis of Manila, and the vibrant fiestas that ignite the streets
+                        with colors and laughter. Discover the ancient Spanish churches, the lively floating markets,
+                        and the mysterious caves that hold secrets from time immemorial.
+                        <br><br>
+                        Whether you seek adventure in the great outdoors or desire to immerse yourself in a rich
+                        cultural tapestry, the Philippines has something for every traveler's heart. Join us as we
+                        unveil the hidden gems and the well-trodden paths, showcasing the very best of what this
+                        tropical paradise has to offer.
+                        <br><br>
+                        So, pack your bags, let go of your worries, and get ready to be mesmerized by the beauty and
+                        wonder of the famous destinations in the Philippines. This is a journey you'll cherish for a
+                        lifetime.
+                        <br><b></b>
+                    </p>
+                </div>
+                <!-- /Section Header -->
+                <!-- Row Container -->
+                <div class="row">
+                    <!-- First Row -->
+                    <div class="col s12 m6 l8">
+                        <img src="images/laoag.jpg" alt="" class="materialboxed"
+                            data-caption="Insert a beautiful caption here" height="400" />
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <img src="images/siargao.jpg" alt="" class="materialboxed"
+                            data-caption="Insert a beautiful caption here" height="400" />
+                    </div>
+                    <!-- /First Row -->
+                    <!-- Second Row -->
+                    <div class="col s12 m12 l6">
+                        <img src="images/baguio.jpg" alt="" class="materialboxed"
+                            data-caption="Insert a beautiful caption here" height="400" />
+                    </div>
+                    <!-- <div class="col m6 l3">
+                        <img src="images/kawasan_cebu_swim.png" alt="" class="materialboxed"
+                            data-caption="Insert a beautiful caption here" height="400" />
+                    </div>
+                    <div class="col m6 l3">
+                        <img src="images/venice_grand_canal.jpg" alt="" class="materialboxed"
+                            data-caption="Insert a beautiful caption here" height="400" />
+                    </div> -->
+                    <!-- /Second Row -->
+                    <!-- Third Row -->
+                    <div class="col s12 m12 l3">
+                        <img src="images/travel.jpg" alt="" class="materialboxed"
+                            data-caption="Insert a beautiful caption here" height="400" />
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <img src="images/siargao_trees_oceans.jpg" alt="" class="materialboxed"
+                            data-caption="Insert a beautiful caption here" height="400" />
+                    </div>
+                    <!-- <div class="col s12 m6 l6">
+                        <img src="images/Intramuros.jpg" alt="" class="materialboxed"
+                            data-caption="Insert a beautiful caption here" height="400" />
+                    </div> -->
+                    <!-- /Third Row -->
+                </div>
+                <!-- /Row Container -->
+            </section>
+            <!-- /Section - Featured Images -->
+        </div>
+
+
+        <!-- /// -->
+        <div class="container">
+            <!-- Section - Contact Us & FAQs -->
+            <section class="section scrollspy" id="message">
+                <!-- Section Header -->
+                <div class="center-align">
+                    <h2>Get in Touch With Us</h2>
+                    <p>
+                        If you’ve got questions, feedback or ideas you would like to share, please contact us.
+                    </p>
+                </div>
+                <!-- /Section Header -->
+                <!-- Row Container -->
+                <div class="row">
+                    <!-- First Column -->
+                    <div class="col s12 m6">
+                        <h5>Send a Messgae</h5>
+                        <p class="grey-text text-darken-1">
+                            you may send us your concerns.
+                        </p>
+                        <form action="" class="form row">
+                            <div class="input-field col s12">
+                                <input type="text" id="name" class="validate" />
+                                <label for="name">Full Name</label>
+                            </div>
+                            <div class="input-field col s12 m6">
+                                <input type="email" id="email" class="validate" />
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field col s12 m6">
+                                <input type="tel" id="tel" class="validate" />
+                                <label for="tel">Phone Number</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <textarea id="textarea" class="materialize-textarea"></textarea>
+                                <label for="textarea">Message</label>
+                            </div>
+                            <button class="waves-effect waves-light btn-large indigo" type="submit">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                    <!-- /First Column -->
+                    <!-- Second Column -->
+                    <div class="col s12 m6">
+                        <h5>Frequently Asked Questions</h5>
+                        <p class="grey-text text-darken-1">
+                            Here are some questions that few travelers ask about TaRAVEL
+                        </p>
+                        <ul class="collapsible expandable z-depth-0">
+                            <li class="active">
+                                <div class="collapsible-header">
+                                    <i class="material-icons indigo-text"> looks_one </i>
+                                    What is the budget friendly travel destination you may suggest?
+                                </div>
+                                <div class="collapsible-body">
+                                    Avoid the travel rush by traveling off-peak and during weekdays.
+                                    Pick cheaper places like Cebu, Boracay, and Palawan, but don’t stay too long if you
+                                    are on a budget.
+                                    Use public transport instead of Uber or taxis.
+                                    Take overnight buses.
+                                    Stay in pension houses.
+                                    Eat like a local.
+                                    Buy supermarket and convenience store food.
+                                    Carry smaller bills and coins.
+                                    Try to find accommodation that includes breakfast.
+                                    Look for guesthouses or hostels instead of hotels.
+                                    Cook your own meals.
+                                    Travel during the off-season.
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">
+                                    <i class="material-icons indigo-text"> looks_two </i>
+                                    What best menu you may recommend in the filipino dishes?
+                                </div>
+                                <div class="collapsible-body">
+                                    Filipino cuisine has recently been tagged as the ‘next big thing’ to look out for in
+                                    the culinary world. With the country’s variety of influences throughout its rich
+                                    history, its traditional cooking techniques, and the Filipinos’ knack for combining
+                                    flavours and making the most of any and all ingredients at their disposal, what
+                                    results is unpretentious, no-frills food that’s simply delicious. The dishes
+                                    including adobo, sinigang, kare-kare, lechon, crispy pata, sisig, bulalo, pancit,
+                                    palabok, beef kaldereta and etc.
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">
+                                    <i class="material-icons indigo-text"> looks_3 </i>
+                                    what activities in the travel destinations in the philippines?
+                                </div>
+                                <div class="collapsible-body">
+                                    The Philippines is a beautiful country with a diverse range of travel destinations
+                                    that offer various activities to suit different interests. Here are some popular
+                                    activities you can enjoy in different travel destinations across the Philippines:
+
+                                    <br>
+                                    <br>
+                                    Beach Relaxation: The Philippines is known for its stunning beaches. Popular beach
+                                    destinations like Boracay, Palawan (El Nido and Coron), Siargao, and Bantayan Island
+                                    offer opportunities to relax on white sandy shores, swim in clear waters, and
+                                    indulge in water sports like snorkeling, scuba diving, and island hopping.
+
+                                    <br>
+                                    <br>
+                                    Island Hopping: With over 7,000 islands, island hopping is a must-do activity. You
+                                    can explore multiple islands in a region, discover hidden lagoons, picturesque
+                                    coves, and remote beaches.
+
+                                    <br>
+                                    <br>
+                                    Water Sports: Apart from snorkeling and scuba diving, the Philippines offers
+                                    excellent opportunities for surfing, especially in Siargao and Baler. Windsurfing
+                                    and kiteboarding are popular in Boracay and other windy spots.
+
+                                    <br>
+                                    <br>
+                                    Trekking and Hiking: The Philippines has lush landscapes and beautiful mountains.
+                                    Trekking opportunities abound, including hikes to the Banaue Rice Terraces, Mount
+                                    Pinatubo, Mount Mayon, Mount Apo, and more.
+
+                                    <br>
+                                    <br>
+                                    Cultural Immersion: Immerse yourself in the rich culture and traditions of the
+                                    Philippines by visiting historic sites, attending festivals like Sinulog in Cebu or
+                                    Ati-Atihan in Kalibo, and exploring the local markets and street food.
+
+                                    <br>
+                                    <br>
+                                    Culinary Adventures: The Philippines has a diverse and flavorful cuisine. Don't miss
+                                    trying local dishes like adobo, sinigang, lechon, and various seafood delicacies.
+
+                                    <br>
+                                    <br>
+                                    Wildlife Encounters: In places like Bohol, you can encounter the cute tarsiers,
+                                    considered one of the world's smallest primates. Additionally, you can go dolphin
+                                    and whale watching in certain areas.
+
+                                    <br>
+                                    <br>
+                                    River Cruises: Experience the scenic beauty of the country's rivers, such as the
+                                    Loboc River in Bohol or the floating cottages in the Palawan Underground River.
+
+                                    <br>
+                                    <br>
+                                    Historical Sites: Explore the country's rich history by visiting sites like
+                                    Intramuros in Manila, Fort Santiago, and the UNESCO World Heritage-listed Baroque
+                                    Churches of the Philippines.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /Second Column -->
+                </div>
+                <!-- /Row Container -->
+            </section>
+            <!-- /Section - Contact Us & FAQs -->
+        </div>
+
+    </main>
+    <footer class="page-footer  indigo lighten-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">TaRAVEL</h5>
+                    <p class="grey-text text-lighten-4">
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Popular Airlines</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Popular Flight Routes</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Site Directions</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Top Philippines Destinations</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">About Us</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Famous Destination</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Featured Places</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"></a></li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Social Media</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa-brands fa-facebook"></i>
+                                Facebook</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa-brands fa-instagram"></i>
+                                Instagram</a>
+                        </li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa-brands fa-tiktok"></i></a> TikTok
+                        </li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa-brands fa-youtube"></i></a>
+                            Youtube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright indigo lighten-2">
+            <div class="container center">
+                © 2023 Copyright by TaRAVEL
+                <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Materialize Waves JS -->
+    <script src="https://unpkg.com/nice-waves@latest"></script>
+
+    <!-- Materialize JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
